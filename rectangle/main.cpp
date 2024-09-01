@@ -7,12 +7,10 @@ using namespace std;
 
 int main()
 {
-    Rectangle box1;
-    box1.setLength(5);
-    box1.setWidth(5);
-
-    cout << "Perimetre de box1 =" << box1.perimeter(box1.getLength(), box1.getWidth())
-         << " et  surface de box1=" << box1.area(box1.getLength(), box1.getWidth()) << endl;
+    Cercle C;
+    C.setRadius(5);
+    cout << "Perimetre de C=" << C.perimeter(C.getRadius())
+         << " et  surface de C=" << C.area(C.getRadius()) << endl;
 
     return 0;
 }
